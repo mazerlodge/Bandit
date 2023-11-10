@@ -1,0 +1,18 @@
+Bandit Level 3
+
+Goals:
+-------
+The password for the next level is stored in a file called spaces in this filename located in the home directory
+
+Action:
+--------
+$ssh -p 2220 bandit2@bandit.labs.overthewire.org
+PWD: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+$ls
+cat spaces in this filename
+$cat spaces\ in\ this\ filename
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
+System Response:
+-----------------
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
